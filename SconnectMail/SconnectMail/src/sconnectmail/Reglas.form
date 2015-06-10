@@ -1,0 +1,786 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[840, 630]"/>
+    </Property>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[840, 630]"/>
+    </Property>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[840, 630]"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="TablaReglas" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="EventosReglas" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="25" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="TablaReglas" min="-2" pref="300" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Component id="EventosReglas" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="331" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="TablaReglas">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+            <EtchetBorder/>
+          </Border>
+        </Property>
+        <Property name="alignmentX" type="float" value="0.0"/>
+        <Property name="alignmentY" type="float" value="0.0"/>
+        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[805, 300]"/>
+        </Property>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[805, 300]"/>
+        </Property>
+        <Property name="name" type="java.lang.String" value="TablaReglas" noResource="true"/>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[805, 273]"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="124" max="32767" attributes="0"/>
+                  <Component id="ContenedorReglas" min="-2" pref="521" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="AgregarRegla" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="EliminarRegla" alignment="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              </Group>
+              <Component id="TituloReglas" alignment="0" pref="801" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="TituloReglas" min="-2" pref="28" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="AgregarRegla" min="-2" pref="23" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="EliminarRegla" min="-2" pref="23" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="ContenedorReglas" min="-2" pref="176" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="70" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="TituloReglas">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="TituloReglas.background"/>
+            <Property name="font" type="java.awt.Font" resourceKey="TituloReglas.font"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="TituloReglas.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="TituloReglas.text"/>
+            <Property name="alignmentY" type="float" value="0.0"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder/>
+              </Border>
+            </Property>
+            <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[773, 28]"/>
+            </Property>
+            <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[773, 28]"/>
+            </Property>
+            <Property name="name" type="java.lang.String" value="TituloReglas" noResource="true"/>
+            <Property name="opaque" type="boolean" value="true"/>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[773, 28]"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="ContenedorReglas">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="ContenedorReglas" noResource="true"/>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="ReglasTable">
+              <Properties>
+                <Property name="autoCreateRowSorter" type="boolean" value="true"/>
+                <Property name="name" type="java.lang.String" value="ReglasTable" noResource="true"/>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="ReglasTableMouseClicked"/>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="ReglasTableKeyReleased"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JTable(modelo)"/>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="try{ReglasTable.addRowSelectionInterval(0,0);}catch(Exception ex){}"/>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="modelo.addColumn(&quot;Input/Output&quot;);&#xa;modelo.addColumn(&quot;MT&quot;);&#xa;modelo.addColumn(&quot;Monto&quot;);&#xa;modelo.addColumn(&quot;Moneda&quot;);&#xa;modelo.addColumn(&quot;Correo Dpto.&quot;);&#xa;modelo.addColumn(&quot;Correo Cliente&quot;);&#xa;modelo.addColumn(&quot;&quot;);&#xa;&#xa;ReglasTable.getColumnModel().getColumn(0).setMaxWidth(80);&#xa;ReglasTable.getColumnModel().getColumn(0).setMinWidth(80);&#xa;ReglasTable.getColumnModel().getColumn(1).setMaxWidth(60);&#xa;ReglasTable.getColumnModel().getColumn(1).setMinWidth(60);&#xa;ReglasTable.getColumnModel().getColumn(2).setMaxWidth(70);&#xa;ReglasTable.getColumnModel().getColumn(2).setMinWidth(70);&#xa;ReglasTable.getColumnModel().getColumn(3).setMaxWidth(70);&#xa;ReglasTable.getColumnModel().getColumn(3).setMinWidth(70);&#xa;ReglasTable.getColumnModel().getColumn(4).setMaxWidth(160);&#xa;ReglasTable.getColumnModel().getColumn(4).setMinWidth(160);&#xa;ReglasTable.getColumnModel().getColumn(5).setMaxWidth(80);&#xa;ReglasTable.getColumnModel().getColumn(5).setMinWidth(80);&#xa;TableColumn test = ReglasTable.getColumnModel().getColumn(5);&#xa;test.setCellEditor(new DefaultCellEditor(new JCheckBox()));&#xa;test.setCellRenderer(new ShadedTableCellRenderer());&#xa;ReglasTable.getColumnModel().getColumn(6).setMaxWidth(10);&#xa;ReglasTable.getColumnModel().getColumn(6).setMinWidth(10);&#xa;&#xa;&#xa;DefaultTableCellRenderer tcr = new DefaultTableCellRenderer();&#xa;tcr.setHorizontalAlignment(SwingConstants.CENTER);&#xa;ReglasTable.getColumnModel().getColumn(0).setCellRenderer(tcr);&#xa;ReglasTable.getColumnModel().getColumn(1).setCellRenderer(tcr);&#xa;ReglasTable.getColumnModel().getColumn(2).setCellRenderer(tcr);&#xa;ReglasTable.getColumnModel().getColumn(3).setCellRenderer(tcr);&#xa;ReglasTable.getColumnModel().getColumn(4).setCellRenderer(tcr);&#xa;//ReglasTable.getColumnModel().getColumn(5).setCellRenderer(tcr);&#xa;ReglasTable.getColumnModel().getColumn(6).setCellRenderer(tcr);"/>
+              </AuxValues>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="AgregarRegla">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="AgregarRegla.text"/>
+            <Property name="alignmentY" type="float" value="0.0"/>
+            <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[81, 23]"/>
+            </Property>
+            <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[81, 23]"/>
+            </Property>
+            <Property name="name" type="java.lang.String" value="AgregarRegla" noResource="true"/>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[81, 23]"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="AgregarReglaMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="EliminarRegla">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="EliminarRegla.text"/>
+            <Property name="alignmentY" type="float" value="0.0"/>
+            <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[81, 23]"/>
+            </Property>
+            <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[81, 23]"/>
+            </Property>
+            <Property name="name" type="java.lang.String" value="EliminarRegla" noResource="true"/>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[81, 23]"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EliminarReglaActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="EventosReglas">
+      <Properties>
+        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[805, 290]"/>
+        </Property>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[805, 290]"/>
+        </Property>
+        <Property name="name" type="java.lang.String" value="EventosReglas" noResource="true"/>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[805, 290]"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="805" max="32767" attributes="0"/>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Component id="ContenedorEventosReglas" alignment="0" min="-2" pref="807" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="300" max="32767" attributes="0"/>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Component id="ContenedorEventosReglas" alignment="0" min="-2" pref="300" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JLayeredPane" name="ContenedorEventosReglas">
+          <Properties>
+            <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[805, 290]"/>
+            </Property>
+            <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[805, 290]"/>
+            </Property>
+            <Property name="name" type="java.lang.String" value="ContenedorEventosReglas" noResource="true"/>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[805, 290]"/>
+            </Property>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="PanelDetallesRegla">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                    <EtchetBorder/>
+                  </Border>
+                </Property>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[805, 290]"/>
+                </Property>
+                <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[805, 290]"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="PanelDetallesRegla" noResource="true"/>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[805, 290]"/>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                  <JLayeredPaneConstraints x="0" y="0" width="-1" height="-1" layer="0" position="-1"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+                <Property name="useNullLayout" type="boolean" value="false"/>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="TituloDetalleAlerta">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" resourceKey="TituloDetalleAlerta.background"/>
+                    <Property name="font" type="java.awt.Font" resourceKey="TituloDetalleAlerta.font"/>
+                    <Property name="foreground" type="java.awt.Color" resourceKey="TituloDetalleAlerta.foreground"/>
+                    <Property name="text" type="java.lang.String" resourceKey="TituloDetalleAlerta.text"/>
+                    <Property name="alignmentY" type="float" value="0.0"/>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                        <TitledBorder/>
+                      </Border>
+                    </Property>
+                    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[801, 28]"/>
+                    </Property>
+                    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[801, 28]"/>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="TituloDetalleAlerta" noResource="true"/>
+                    <Property name="opaque" type="boolean" value="true"/>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[801, 28]"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="2" y="2" width="-1" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JButton" name="CancelarEditarAlerta">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="CancelarEditarAlerta.text"/>
+                    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[81, 23]"/>
+                    </Property>
+                    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[81, 23]"/>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="CancelarEditarAlerta" noResource="true"/>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[81, 23]"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CancelarEditarAlertaActionPerformed"/>
+                  </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="710" y="250" width="-1" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JButton" name="EditaAlerta">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="EditaAlerta.text"/>
+                    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[81, 23]"/>
+                    </Property>
+                    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[81, 23]"/>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="EditaAlerta" noResource="true"/>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[81, 23]"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EditaAlertaActionPerformed"/>
+                  </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="620" y="250" width="-1" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Container class="javax.swing.JPanel" name="jPanel4">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                        <EtchetBorder/>
+                      </Border>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="jPanel4" noResource="true"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="10" y="40" width="780" height="190"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="MontoReglaD" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="MonedaReglaD" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="MTReglaD" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="IOReglaD" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="MontoDetalle" alignment="0" min="-2" pref="117" max="-2" attributes="0"/>
+                                          <Component id="MTDetalle" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                                          <Component id="IOComboBoxDetalle" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="158" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="CorreoReglaD" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="CorreoDetalle" min="-2" pref="173" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="CorreoClienteD" alignment="0" min="-2" pref="122" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="MonedaDetalle" alignment="0" min="-2" pref="74" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="85" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="IOReglaD" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                                  <Component id="IOComboBoxDetalle" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="CorreoReglaD" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="CorreoDetalle" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="MTDetalle" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="MTReglaD" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="MontoDetalle" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="MontoReglaD" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="MonedaReglaD" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                                          <Component id="MonedaDetalle" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                      <Component id="CorreoClienteD" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace pref="18" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="IOReglaD">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="IOReglaD.text"/>
+                        <Property name="name" type="java.lang.String" value="IOReglaD" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="IOComboBoxDetalle">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="3">
+                            <StringItem index="0" value="Seleccionar..."/>
+                            <StringItem index="1" value="INPUT"/>
+                            <StringItem index="2" value="OUTPUT"/>
+                          </StringArray>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="IOComboBoxDetalle" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="MTReglaD">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="MTReglaD.text"/>
+                        <Property name="name" type="java.lang.String" value="MTReglaD" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JFormattedTextField" name="MTDetalle">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="MTDetalle" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="MontoReglaD">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="MontoReglaD.text"/>
+                        <Property name="name" type="java.lang.String" value="MontoReglaD" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JFormattedTextField" name="MontoDetalle">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="MontoDetalle" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="MonedaReglaD">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="MonedaReglaD.text"/>
+                        <Property name="name" type="java.lang.String" value="MonedaReglaD" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JFormattedTextField" name="MonedaDetalle">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="MonedaDetalle" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="CorreoDetalle">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="CorreoDetalle" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="CorreoReglaD">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="CorreoReglaD.text"/>
+                        <Property name="name" type="java.lang.String" value="CorreoReglaD" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="CorreoClienteD">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="CorreoClienteD.text"/>
+                        <Property name="name" type="java.lang.String" value="CorreoClienteD" noResource="true"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="PanelAgregarRegla">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                    <EtchetBorder/>
+                  </Border>
+                </Property>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[805, 290]"/>
+                </Property>
+                <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[805, 290]"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="PanelAgregarRegla" noResource="true"/>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[805, 290]"/>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                  <JLayeredPaneConstraints x="0" y="0" width="-1" height="-1" layer="0" position="-1"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+                <Property name="useNullLayout" type="boolean" value="false"/>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="TituloAgregarRegla">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" resourceKey="TituloAgregarRegla.background"/>
+                    <Property name="font" type="java.awt.Font" resourceKey="TituloAgregarRegla.font"/>
+                    <Property name="foreground" type="java.awt.Color" resourceKey="TituloAgregarRegla.foreground"/>
+                    <Property name="text" type="java.lang.String" resourceKey="TituloAgregarRegla.text"/>
+                    <Property name="alignmentY" type="float" value="0.0"/>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                        <TitledBorder/>
+                      </Border>
+                    </Property>
+                    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[801, 28]"/>
+                    </Property>
+                    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[801, 28]"/>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="TituloAgregarRegla" noResource="true"/>
+                    <Property name="opaque" type="boolean" value="true"/>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[801, 28]"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="2" y="2" width="-1" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JButton" name="CancelarAgregarAlerta">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="CancelarAgregarAlerta.text"/>
+                    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[81, 23]"/>
+                    </Property>
+                    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[81, 23]"/>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="CancelarAgregarAlerta" noResource="true"/>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[81, 23]"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CancelarAgregarAlertaActionPerformed"/>
+                  </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="710" y="250" width="-1" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Container class="javax.swing.JPanel" name="jPanel3">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                        <EtchetBorder/>
+                      </Border>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="jPanel3" noResource="true"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="10" y="40" width="780" height="190"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="MontoReglaA" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="MonedaReglaA" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="MTReglaA" min="-2" max="-2" attributes="0"/>
+                                  <Component id="IOReglaA" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="MontoAgregar" min="-2" pref="117" max="-2" attributes="0"/>
+                                          <Component id="MTAgregar" min="-2" pref="60" max="-2" attributes="0"/>
+                                          <Component id="IOComboBoxAgregar" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="158" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="CorreoReglaA" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="CorreoAgregar" min="-2" pref="173" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="CorreoClienteA" min="-2" pref="122" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="MonedaAgregar" min="-2" pref="74" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="85" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="IOReglaA" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                                  <Component id="IOComboBoxAgregar" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="CorreoReglaA" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="CorreoAgregar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="MTAgregar" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="MTReglaA" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="MontoAgregar" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="MontoReglaA" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="MonedaReglaA" min="-2" pref="20" max="-2" attributes="0"/>
+                                          <Component id="MonedaAgregar" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                      <Component id="CorreoClienteA" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace pref="18" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="IOReglaA">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="IOReglaA.text"/>
+                        <Property name="name" type="java.lang.String" value="IOReglaA" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="IOComboBoxAgregar">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="3">
+                            <StringItem index="0" value="Seleccionar..."/>
+                            <StringItem index="1" value="INPUT"/>
+                            <StringItem index="2" value="OUTPUT"/>
+                          </StringArray>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="IOComboBoxAgregar" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="MTReglaA">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="MTReglaA.text"/>
+                        <Property name="name" type="java.lang.String" value="MTReglaA" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JFormattedTextField" name="MTAgregar">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="MTAgregar" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="MontoReglaA">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="MontoReglaA.text"/>
+                        <Property name="name" type="java.lang.String" value="MontoReglaA" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JFormattedTextField" name="MontoAgregar">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="MontoAgregar" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="MonedaReglaA">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="MonedaReglaA.text"/>
+                        <Property name="name" type="java.lang.String" value="MonedaReglaA" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JFormattedTextField" name="MonedaAgregar">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="MonedaAgregar" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="CorreoAgregar">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="CorreoAgregar" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="CorreoReglaA">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="CorreoReglaA.text"/>
+                        <Property name="name" type="java.lang.String" value="CorreoReglaA" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="CorreoClienteA">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="CorreoClienteA.text"/>
+                        <Property name="name" type="java.lang.String" value="CorreoClienteA" noResource="true"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JButton" name="AgregarReg">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="AgregarReg.text"/>
+                    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[81, 23]"/>
+                    </Property>
+                    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[81, 23]"/>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="AgregarReg" noResource="true"/>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[81, 23]"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AgregarRegActionPerformed"/>
+                  </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="620" y="250" width="-1" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
